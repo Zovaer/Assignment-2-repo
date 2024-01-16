@@ -218,10 +218,54 @@ margin-top: 5px;
 }
 /* discount section */
 /* Perfect Place */
-.perfect-place{
-   
+/* ---------------------newsletter section-------------- */
+.newsletter-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
-/* footer */
+.form{
+    
+padding:40px;
+width: 474px;
+height: 350px;
+
+border-radius: 16px;
+border: 1px solid #FF5400;
+background: #FFF;
+
+}
+.form-head{
+    color: #131318;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+
+}
+
+.newsletter-head form input{
+    padding: 3px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 0;
+width: 420px;
+height: 52px;
+flex-shrink: 0;
+margin-top: 15px;
+margin-bottom: 16px;
+}
+.form-hr{
+    width: 420px;
+height: 2px;
+margin: 3px 2px;
+background: rgba(19, 19, 24, 0.10);
+border: 0;
+}
+.form-img img{
+    width: 672px;
+height: 422px;
+}
+/* ----------------------footer---------------------------------- */
 footer{
   margin-top: 100px;
   background: rgba(19, 19, 24, 0.05);
