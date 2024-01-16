@@ -1,4 +1,4 @@
-/* share style */
+/* -----------------share style----------------------- */
 *{
     font-family: 'Mulish', sans-serif;
 }
@@ -24,6 +24,26 @@ border: 0;
 font-size: 40px;
 font-weight: 800;
         }
+.common-header-mideam{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+padding:0 74px;
+}
+.common-description-mideam{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+padding: 0 52px;
+}
+.common-red-mideam{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    padding:0 74px;
+}
     /* header section */
 /* navigation style */
 .nav-bar{
@@ -158,6 +178,8 @@ font-weight: 400;
     height: 100%;
     
 }
+
+
 .row{
     height: 400px;
     display: flex;
@@ -217,6 +239,51 @@ margin-top: 5px;
     
 }
 /* discount section */
+
+.discount-head{
+    background: url(./Images/Group\ 39.png), no-repeat center ;
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+   max-width:100%;
+   position: relative;
+    
+}
+.discount-card{
+ border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+position: absolute;
+top: 10%;
+right: 5%;
+
+}
+.discount-header{
+    background: url(./Images/Group\ 40.png), no-repeat center ;
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+   max-width:100%;
+   position: relative;
+    
+}
+.discount-carder{
+ border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 579px;
+height: 389px;
+position: absolute;
+top: 10%;
+left: 5%;
+
+}
 /* Perfect Place */
 /* ---------------------newsletter section-------------- */
 .newsletter-head{
@@ -264,6 +331,38 @@ border: 0;
 .form-img img{
     width: 672px;
 height: 422px;
+}
+.form-img{
+    background: url(./Images/Rectangle\ 8\ \(1\).png) no-repeat center ;
+    background-size: cover;
+    width: 672px;
+    height: 422px;
+    border-radius:16px;
+    max-width:100%;
+    position: relative;
+   
+}
+.offer-img{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+position: absolute;
+top: 58%;
+right: 3%;}
+.offer-70-description{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+.offer-70{
+    color: #FFF;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+margin:-14px;
 }
 /* ----------------------footer---------------------------------- */
 footer{
