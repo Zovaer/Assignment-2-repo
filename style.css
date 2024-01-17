@@ -498,6 +498,9 @@ footer{margin-top: 25px;
     margin-top: 0px;
     font-size: 16px;
   }
+  #chose-y{
+    margin-top: 10px;
+  }
   
   .card-container img {
     margin: 0 30px 0 30px;
@@ -507,7 +510,7 @@ footer{margin-top: 25px;
     width: 90%;
     margin: 0px 18px;}
     .card-container {
-        margin-top: 350px;
+        margin-top: 50px;
       }
     .destination{
         margin-top: 456px;
@@ -573,7 +576,9 @@ margin: 0 10px;}
 }
 .hr-1 {
     width: 335px;
-
+#why-us{
+    margin-top: 100px;
+}
   }
   .row .maldives{
     width: 335px;
