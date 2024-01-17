@@ -239,6 +239,7 @@ border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 
 }
+
 .card-clr1{
     padding:30px;
     margin-top: 100px;
@@ -498,9 +499,12 @@ footer{margin-top: 25px;
     margin-top: 0px;
     font-size: 16px;
   }
-  #chose-y{
-    margin-top: 10px;
-  }
+ #why-us{
+   margin-top: 40px;
+ }
+ #chose-y{
+    margin-top: 20px;
+ }
   
   .card-container img {
     margin: 0 30px 0 30px;
@@ -508,7 +512,7 @@ footer{margin-top: 25px;
   .card, .card-clr1, .ture-popular-img video, .form-img{
     padding: 2px;
     width: 90%;
-    margin: 0px 18px;}
+    margin: 10px 18px 0 18px;}
     .card-container {
         margin-top: 50px;
       }
