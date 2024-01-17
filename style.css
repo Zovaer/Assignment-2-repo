@@ -177,29 +177,32 @@ padding: 0;
 .destination{
     text-align: center;
 }
+.row{
+    height: 300px;
+   display: flex;
+   gap: 20px;
+   margin-bottom: 20px;
+}
 .row img{
     width: 100%;
-    height: 100%;
-    
+    height:100% ;
 }
 
-
-.row{
-    height: 400px;
-    display: flex;
-    gap: 12px;
-    margin-bottom: 5px;
-    width: 100%;
+.row .america{
+    width: 474px;
+height: 286px;
 }
-.common-description{
-    color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
+.row .srilanka{
+    width: 670px;
+height: 286px;
 }
-.row > div{
-    flex: 1;
-    border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+.row .kasmir{
+    width: 500px;
+height: 286px;
+}
+.row .bangladesh{
+    width: 1000px;
+height: 300px;
 }
 .our-popular-tour-content button{
     margin-top: 30px;
